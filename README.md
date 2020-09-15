@@ -1,11 +1,11 @@
 # go-merkletree
 
-[![Tag](https://img.shields.io/github/tag/wealdtech/go-merkletree.svg)](https://github.com/wealdtech/go-merkletree/releases/)
-[![License](https://img.shields.io/github/license/wealdtech/go-merkletree.svg)](LICENSE)
-[![GoDoc](https://godoc.org/github.com/wealdtech/go-merkletree?status.svg)](https://godoc.org/github.com/wealdtech/go-merkletree)
-[![Travis CI](https://img.shields.io/travis/wealdtech/go-merkletree.svg)](https://travis-ci.org/wealdtech/go-merkletree)
-[![codecov.io](https://img.shields.io/codecov/c/github/wealdtech/go-merkletree.svg)](https://codecov.io/github/wealdtech/go-merkletree)
-[![Go Report Card](https://goreportcard.com/badge/github.com/wealdtech/go-merkletree)](https://goreportcard.com/report/github.com/wealdtech/go-merkletree)
+[![Tag](https://img.shields.io/github/tag/wdwd5wd/go-merkletree.svg)](https://github.com/wdwd5wd/go-merkletree/releases/)
+[![License](https://img.shields.io/github/license/wdwd5wd/go-merkletree.svg)](LICENSE)
+[![GoDoc](https://godoc.org/github.com/wdwd5wd/go-merkletree?status.svg)](https://godoc.org/github.com/wdwd5wd/go-merkletree)
+[![Travis CI](https://img.shields.io/travis/wdwd5wd/go-merkletree.svg)](https://travis-ci.org/wdwd5wd/go-merkletree)
+[![codecov.io](https://img.shields.io/codecov/c/github/wdwd5wd/go-merkletree.svg)](https://codecov.io/github/wdwd5wd/go-merkletree)
+[![Go Report Card](https://goreportcard.com/badge/github.com/wdwd5wd/go-merkletree)](https://goreportcard.com/report/github.com/wdwd5wd/go-merkletree)
 
 Go implementation of a Merkle tree.
 
@@ -23,14 +23,14 @@ Go implementation of a Merkle tree.
 `go-merkletree` is a standard Go module which can be installed with:
 
 ```sh
-go get github.com/wealdtech/go-merkletree
+go get github.com/wdwd5wd/go-merkletree
 ```
 
 ## Usage
 
 `go-merkletree` generates Merkle trees from an array of `[]byte` values and uses them to generate proofs.  Proofs can be verified, and graphs generated
 
-This package uses pollards and sparese multiproofs for efficient generation of multiple proofs against the same tree; see the articles [Understanding Merkle pollards](https://www.wealdtech.com/articles/understanding-merkle-pollards/) and [Understanding sparse Merkle multiproofs](https://www.wealdtech.com/articles/understanding-sparse-merkle-multiproofs/) for details.
+This package uses pollards and sparese multiproofs for efficient generation of multiple proofs against the same tree; see the articles [Understanding Merkle pollards](https://www.wdwd5wd.com/articles/understanding-merkle-pollards/) and [Understanding sparse Merkle multiproofs](https://www.wdwd5wd.com/articles/understanding-sparse-merkle-multiproofs/) for details.
 
 This package can generate visualisations (in [DOT](https://graphviz.gitlab.io/_pages/doc/info/lang.html) format) for trees and proofs.  Below is a tree visualisation:
 
@@ -47,7 +47,7 @@ and below is a proof visualisation with the value being proved in red, the inter
 package main
 
 import (
-	merkletree "github.com/wealdtech/go-merkletree"
+	merkletree "github.com/wdwd5wd/go-merkletree"
 )
 
 // Example using the Merkle tree to generate and verify proofs.
@@ -92,7 +92,7 @@ Jim McDonald: [@mcdee](https://github.com/mcdee).
 
 ## Contribute
 
-Contributions welcome. Please check out [the issues](https://github.com/wealdtech/go-merkletree/issues).
+Contributions welcome. Please check out [the issues](https://github.com/wdwd5wd/go-merkletree/issues).
 
 ## License
 
